@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ocrim.App.Vendas.Dominio.Entidades
 {
-    class Produto //classe para cuidar dos produtos
+    public class Produto //classe para cuidar dos produtos -- alterei o modificador de acesso para public, problemas para acessar a classe.
+
     {
         
         //propriendades da classe produto
